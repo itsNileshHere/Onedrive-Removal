@@ -15,7 +15,7 @@ A PowerShell script to completely remove OneDrive from Windows, including all as
 2. **Execute the following commands**:
    ```{powershell}
    Set-ExecutionPolicy Bypass -Scope Process -Force
-   iex (iwr 'https://itsnileshhere.github.io/Onedrive-Removal/onedriveRemovalScript.ps1' -UseBasicParsing)
+   iwr -useb https://itsnileshhere.github.io/Onedrive-Removal/onedriveRemovalScript.ps1 | iex
    ```
 
 ## Important Details
